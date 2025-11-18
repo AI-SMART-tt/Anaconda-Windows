@@ -51,7 +51,14 @@ conda activate stt_torch
 
 # ✅ 三、在 stt_torch 环境中安装所需包
 
-## 📦 安装 PyTorch（官方推荐方式）
+#### 👉 下载常用的包：
+
+```bash
+conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+```
+
+
+## 📦 如果需要---安装 PyTorch（官方推荐方式）
 
 ### ✅ 1. 打开 PyTorch 官网安装命令生成器：
 
@@ -97,11 +104,6 @@ pip install librosa soundfile transformers jiwer
 
 ---
 
-## 📦 安装数据分析与开发工具：
-
-```bash
-conda install numpy scipy pandas matplotlib scikit-learn jupyter -y
-```
 
 ---
 
